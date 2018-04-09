@@ -5,6 +5,6 @@ class Index
 {
     public function index()
     {
-        echo "去你妈逼的";
+        echo input("get","code");
     }
 }
