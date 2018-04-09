@@ -5,6 +5,6 @@ class Index
 {
     public function index()
     {
-        echo input("get","code");
+        echo input("get.code");
     }
 }
