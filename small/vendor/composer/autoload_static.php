@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit2ff85296dafff7d6d3637cee3335b5b9
 {
     public static $prefixLengthsPsr4 = array (
+        'w' => 
+        array (
+            'wlt\\wxmini\\' => 11,
+        ),
         't' => 
         array (
             'think\\composer\\' => 15,
@@ -19,6 +23,10 @@ class ComposerStaticInit2ff85296dafff7d6d3637cee3335b5b9
     );
 
     public static $prefixDirsPsr4 = array (
+        'wlt\\wxmini\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/xxh/think-wxminihelper/src',
+        ),
         'think\\composer\\' => 
         array (
             0 => __DIR__ . '/..' . '/topthink/think-installer/src',

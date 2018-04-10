@@ -236,4 +236,12 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+
+    // 小程序appid
+    "wx" => [
+        'appid' => 'wx9bf8558ed005777a',
+        'secret' => '7261cf7b0cb8ce6eeaa381689c69cab7',
+        'grant_type' => 'authorization_code',
+        'url' => 'https://api.weixin.qq.com/sns/jscode2session'
+    ]
 ];
